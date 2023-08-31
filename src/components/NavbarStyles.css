@@ -1,0 +1,146 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+}
+
+.header-bg{
+    background-color: rgba(0, 0, 0,0.85);
+    transition: 0.5s;
+}
+
+.logo-container{
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    gap: 1rem;
+}
+
+.logo-container h2{
+    font-size: 1.3rem;
+}
+
+.logo{
+    color: white;
+    width: 20%;
+    height: 20%;
+    
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    padding: 0 1rem;
+}
+
+.nav-menu li a{
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: white;
+}
+
+.hamburger{
+    display: none;
+    color: black;
+}
+
+.nav-menu.active {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    left: 0;
+  }
+  
+.nav-menu.active li a {
+    color: white;
+  }
+
+.nav-menu.active .header{
+    color: white;
+}
+.nav-menu.active .hamburger-icon{
+    color: white;
+}
+
+.products-dropdown {
+    position: relative; 
+  }
+  
+  .dropdown-trigger:hover + .sub-menu {
+    display: block; /* show menu*/
+  }
+  
+  .sub-menu {
+    display: none; /*hide the menu */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 4px solid blueviolet;
+    width: 120px;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  .sub-menu li {
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1px solid black;
+  }
+  
+  .sub-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 300;
+  }
+
+
+  .products-dropdown:hover .sub-menu,
+.sub-menu:hover {
+    display: block; 
+}
+  
+/* modified for mobile experience */
+@media screen and (max-width: 1040px){
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .nav-menu li{
+        padding: 1rem 0;
+    }
+
+    .nav-menu li a{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .hamburger{
+        display: initial;
+    }
+    
+    
+}

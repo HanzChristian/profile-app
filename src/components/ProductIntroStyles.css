@@ -1,0 +1,36 @@
+.container-product {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding-left: 5rem;
+    padding-right: 6rem;
+    opacity: 0;
+    transform: translateY(10px); /* Initial translate to create fade-in effect */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.container-product.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-content p {
+    color: gray;
+    padding-right: 10rem;
+    text-align: justify;
+    font-size: 2rem;
+    /* margin-left: 2rem; */
+    flex: 1;
+    margin-right: 3rem;
+}
+
+.product-img {
+    flex-shrink: 0;
+    margin-left: auto;
+    max-width: 50%;
+}
+

@@ -1,0 +1,115 @@
+.mask2 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-bg2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.mask2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.hero2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero2 .content2 {
+    position: absolute;
+    top: 15%;
+    left: 2rem; /* Adjust the left positioning as needed */
+    text-align: left; /* Align text to the left */
+    right: 2rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero2.fade-in .content2 {
+    opacity: 1;
+}
+.hero2 .content2 h1 {
+    font-size: 5rem;
+}
+
+.title-carousel {
+    padding-bottom: 30px;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+}
+
+.images-carousel {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.carousel-info {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.carousel-description {
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+/* Adjust the ImageSlider styles as needed */
+.images-slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.images-slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%; /* Adjust the width based on the number of slides */
+    animation: slide 10s infinite alternate; /* Adjust animation duration */
+}
+
+.images-slider ul li {
+    flex: 1;
+    list-style: none;
+}
+
+.images-slider ul li img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-100%);
+    }
+    66.66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

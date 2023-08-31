@@ -1,0 +1,51 @@
+.work-container-new{
+    background-color: black;
+    background-image: url('/public/background-product.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    padding-bottom: 3.5rem;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.project-container-new.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-container-new {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70%;
+    padding-top: 3rem;
+    padding-left: 25rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.project-card.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+
+@media screen and (max-width: 740px) {
+    .project-container-new{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+}

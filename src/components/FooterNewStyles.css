@@ -1,0 +1,28 @@
+    .footer-new{
+        width: 100%;
+        padding: 2rem 0;
+        background-color: rgba(19, 19, 19, 0.8);
+    }
+    
+    .footer-container-new{
+        max-width: 1140px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+   
+    .footer-container-new.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    
+      
+    @media screen and (max-width: 640px) {
+        .footer-container-new{
+            grid-template-columns: 1fr;
+        }
+        
+    }

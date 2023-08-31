@@ -1,0 +1,139 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.intro {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    background-color: white;
+}
+
+
+.intro-content {
+    flex: 1;
+    text-align: left;
+    color: black;
+    opacity: 0; 
+    animation: fade-in 1s ease-in-out forwards; 
+}
+
+.intro-header {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    animation: fade-in 1s ease-in-out forwards; 
+}
+
+.intro-image img {
+    max-width: 70%;
+    max-height: 70%; 
+}
+
+.larger-text {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.vision-mission {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    background-color: black;
+    background-image: url('/public/background-aboutus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: left center; 
+}
+
+.vision-mission-image{
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+.vision-mission-content {
+    text-align: left;
+    color: white;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem; 
+    box-sizing: border-box;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+.vision-content{
+    padding-right: 3rem;
+}
+
+.vision-mission-box {
+    background-color: rgba(255, 255, 255, 0.425);
+    
+    border-radius: 10px;
+    padding: 2rem;
+    width: 50%; 
+    max-height: 70%; 
+    margin-bottom: 2rem; 
+    margin-right: 7rem;
+}
+
+.vision-header,
+.mission-header {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.vision-text,
+.mission-text {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.vision-mission-image {
+    flex: auto;
+    display: flex;
+    
+}
+
+.vision-mission-image img {
+    margin-bottom: 10.5rem;
+    max-width: 70%;
+    transform: scale(1.28);
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
