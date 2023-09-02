@@ -72,7 +72,7 @@
 .products-dropdown {
     position: relative; 
   }
-  
+
   .dropdown-trigger:hover + .sub-menu {
     display: block; /* show menu*/
   }
@@ -87,12 +87,11 @@
     padding: 0;
     margin: 0;
     border-top: 4px solid blueviolet;
-    width: 120px;
+    width:max-content;
     border-radius: 0 0 3px 3px;
   }
   
   .sub-menu li {
-    padding: 0.5rem 1rem;
     border-bottom: 0.1px solid black;
   }
   
@@ -114,9 +113,13 @@
     .nav-menu li a{
         font-size: 1rem;
         font-weight: 500;
-        color: white;
+     }
+
+     .nav-menu .products-dropdown li a{
+        font-size: 0.8rem !important;
      }
 }
+
 /* for mobile */
 @media screen and (max-width: 1040px){
     .nav-menu{
