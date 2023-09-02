@@ -24,14 +24,13 @@
 }
 
 .logo-container h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .logo{
     color: white;
     width: 20%;
     height: 20%;
-    
 }
 
 .nav-menu{
@@ -39,11 +38,11 @@
 }
 
 .nav-menu li{
-    padding: 0 1rem;
+    margin: 1rem;
 }
 
 .nav-menu li a{
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    font-weight: 500;
    color: white;
 }
@@ -110,7 +109,15 @@
     display: block; 
 }
   
-/* modified for mobile experience */
+/* for smaller desktop width*/
+@media screen and (max-width:1440px){
+    .nav-menu li a{
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+     }
+}
+/* for mobile */
 @media screen and (max-width: 1040px){
     .nav-menu{
         flex-direction: column;
@@ -141,6 +148,7 @@
     .hamburger{
         display: initial;
     }
-    
-    
+    .logo-container h2{
+        font-size: 0.8rem;
+    }
 }

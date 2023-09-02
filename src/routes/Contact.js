@@ -25,6 +25,7 @@ const Contact = () => {
               <p className='street-name'>Jl. Daan Mogot Baru Blok LB 3 No. 17-18, Kalideres, Jakarta, Indonesia, 11840</p>
               <div className='phone-fax-email-name'>
                 <p>Phone : +62-21 543 73 132</p>
+                <p>Mobile : +62-811 873 382</p>
                 <p>Fax : +62-21 543 66 488</p>
                 <p>kreasiemas1@yahoo.com</p>
               </div>

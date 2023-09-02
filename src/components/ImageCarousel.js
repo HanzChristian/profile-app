@@ -36,7 +36,7 @@ const ImageCarousel = () => {
 
   const containerStyles = {
     width: "200px",
-    height: "550px",
+    height: window.innerWidth <=1440 ? '450px' : '550px',
     margin: "0 auto",
   };
 
@@ -57,10 +57,7 @@ const ImageCarousel = () => {
           <div className="carousel-info">
             <h1 className='title-carousel'>Product's Variants</h1>
             <p className="carousel-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a purus facilisis,
-              condimentum nunc ac, sagittis nisl. Nulla ac dui et orci sodales finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a purus facilisis,
-              condimentum nunc ac, sagittis nisl. Nulla ac dui et orci sodales finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a purus facilisis,
-              condimentum nunc ac, sagittis nisl. Nulla ac dui et orci sodales finibus.
+            Our main products are divided into many variations. For example, Damar Batu has 3 variants namely Bombay, Calcuta and Mix Quality. In addition, Gum Damar has 3 variants namely AC and CK quality, also Damar Mata Kucing. For information about other variants, please contact us via contact details.
             </p>
             <Link to= "/product" className="btn">To Product</Link>
           </div>

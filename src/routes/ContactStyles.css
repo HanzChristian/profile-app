@@ -1,14 +1,8 @@
 .container-contact {
   display: flex;
-  /* justify-content: left;
-  align-items: flex-start; */
-  align-items: center;
-  justify-content: center;
-  margin-top: 3em;
-  margin-left: 10rem;
-  height: 50vh;
-  opacity: 0; /* Set initial opacity to 0 */
-  animation: fade-in 1s ease-in-out forwards; /* Apply the fade-in animation */
+  margin-top: 3rem;
+  opacity: 0; 
+  animation: fade-in 1s ease-in-out forwards; 
 }
 
 @keyframes fade-in {
@@ -25,14 +19,28 @@
 .content-contact {
   display: flex;
   margin-bottom: 3rem;
-  opacity: 0; /* Set initial opacity to 0 */
+  opacity: 0;
   animation: fade-in 1s ease-in-out forwards; 
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  margin-left: 15%;
 }
 
+.details{
+  width: 30% !important;
+
+}
+
+.getintouch{
+  width: 70%;
+}
+
+.getintouch-contact{
+  align-items: center;
+}
 
 .details-contact{
-    width: 750px;
-    height: 320px;
     flex: 2; 
     padding: 20px;
     margin-bottom: 2.5em;
@@ -69,14 +77,14 @@
 }
 
 .getintouch-contact{
-    width: 750px;
-    height: 320px;
+  width: 70%;
+  height:auto;
     flex-direction: column;
-    margin-left: 3rem;
+    margin-left: 10rem;
     padding: 20px;
-    background-color: #f5f5f5; /* Background color */
-    border: 2px solid #ccc; /* Border */
-    border-radius: 8px; /* Border radius for rounded corners */
+    background-color: #f5f5f5;
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
 }
 
 .title-getintouch{
