@@ -38,3 +38,16 @@
     left: 0;
     z-index: -2;
 }
+
+/* for smaller desktop width*/
+@media screen and (max-width:1440px){
+    .hero-img h1 {
+        font-size: 2.5rem;
+    }
+    .heading {
+        padding-left: 2.5rem;
+        padding-top: 7%;
+        position: relative;
+        z-index: 1;
+    }
+}

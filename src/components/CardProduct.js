@@ -8,7 +8,7 @@ const Card = (props) => {
     <div className="project-card">
       {props.hideContainer && (
         <div>
-          <img src={props.imgsrc} alt="image" />
+          <img src={props.imgsrc} alt="image" className="product-image"/>
           <h2 className="project-title">{props.title}</h2>
           <div className="pro-details">
             <p>{props.text}</p>

@@ -7,8 +7,10 @@
     background-position: left center;
     padding-bottom: 3.5rem;
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 620px;
 }
 
 .project-container-new.fade-in {
@@ -17,12 +19,12 @@
 }
 
 .project-container-new {
-    max-width: 1300px;
+    max-width: auto;
     margin: auto;
     display: grid;
-    grid-template-columns: 70%;
+    grid-template-columns: 50%;
     padding-top: 3rem;
-    padding-left: 25rem;
+    padding-left: 30rem;
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -38,6 +40,12 @@
     display: none;
     opacity: 0;
     transform: translateY(10px);
+}
+
+
+.variant-image{
+    width: 300px;
+    height: 300px;
 }
 
 

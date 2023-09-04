@@ -1,26 +1,24 @@
-import product1 from "../assets/product-1.jpg"
-import product2 from "../assets/product-2.jpg"
-import product3 from "../assets/product-3.jpg"
-import product4 from "../assets/product-4.jpg"
-import product5 from "../assets/product-5.jpg"
-import product6 from "../assets/product-6.jpg"
+import damarbatu1 from "../assets/damar-batu-1.jpeg"
+import damarbatu2  from "../assets/damar-batu-2.jpeg"
+import damarbatu3  from "../assets/damar-batu-3.jpeg"
 
 
 const DammarBatuData = [
+
     {
-        imgsrc: product5, 
-        title: "Dammar batu",
-        text: "Dammar batu is the fossilized resin obtained from the botanical order Dipterocarpaceae. Due to the natural curing process, the resin is slightly yellow in color, but some are white to golden brown. In industrial, Dammar batu is commonly used as a raw material for paints, batik dyes, waxes, printing inks, linoleum and cosmetics."
+        imgsrc: damarbatu1, 
+        title: "Damar Batu Bombay",
+        text: "Damar Batu Bombay is a variation of Damar Batu. Damar Batu Bombay has large and looks like a rock chunk. The Bombay variant is often used as an ingredient to make incense."
     },
     {
-        imgsrc: product2, 
-        title: "Dammar gum",
-        text: "Dammar gum is the result of secretions (pus or sap) of the trees Shorea sp., Vatica, sp., Dryobalanops sp., and other plants of the order meranti-merantian or Dipterocarpaceae. Plastic resin can be used as raw material for matches, resin, plaster, varnish, paint, ink industry stabilizer and cosmetics. Besides being an industrial raw material, dammar gum can be burned as a lighting tool and can also be used as a batik material."
+        imgsrc: damarbatu2, 
+        title: "Damar Batu Calcuta",
+        text: "Damar Batu Calcuta is a variation of Batu Damar. Damar Batu Calcuta has smaller size rather than the Bombay variant and looks like pebbles. The Calcutta variant is often used in perfumery, incense and paint blends."
     },
     {
-        imgsrc: product3, 
-        title: "Copal gum",
-        text: "Copal gum is a resin produced from the resin of a forest tree of the genus Daniellia. Due to common impurities and regional differences, the color of copal resin varies from black to yellow to white. Copal gum has had many uses in the past and present. Primarily used as an incense by ancient civilizations, it was used as an original form of glue and traditional medicine for dysentery, stomach pain, dizziness, and fear. Nowadays copal gum is commonly used as incense."
+        imgsrc: damarbatu3, 
+        title: "Damar Batu Mix Quality",
+        text: "Damar Batu Mix Quality is a combination of Bombay and Calcuta variants such that the proposed texture includes small and large portions."
     }
 ]
 

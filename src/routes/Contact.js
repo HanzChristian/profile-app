@@ -3,13 +3,16 @@ import Navbar from '../components/Navbar';
 import HeroImg2 from '../components/HeroImg2';
 import FooterNew from '../components/Footer-new';
 import "./ContactStyles.css";
+import { Map } from '@googlemaps/react-wrapper'
+
 
 const Contact = () => {
   const imageUrl = "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1521&q=80";
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to server)
+    // Handle form here
+
   };
 
   return (

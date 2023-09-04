@@ -20,7 +20,7 @@ const CardDisplay = () => {
       <h1 className="project-heading">Our Products</h1>
       <div className={`project-container ${fadeIn ? "fade-in" : ""}`}>
         {CardProductData.map((val, ind) => {
-          const showButton = ind < 2; // Show button for index 0, 1, and 2
+          const showButton = ind < 3; // Show button for index 0, 1, and 2
           const hideContainer = ind != 6; //Check if index != 6, the card is shown
           return (
             <CardProduct

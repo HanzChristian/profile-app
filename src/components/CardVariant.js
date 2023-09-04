@@ -10,7 +10,7 @@ const CardVariant = (props) => {
     position: "absolute",
     top: "50%",
     transform: "translateY(-50%)",
-    fontSize: "60px",
+    fontSize: "40px",
     color: "gray",
     zIndex: 1,
     cursor: "pointer",
@@ -39,7 +39,7 @@ const CardVariant = (props) => {
       <button onClick={nextCard} style={rightArrowStyles}>
         <FaArrowRight />
       </button>
-      <img src={props.imgsrc} alt="image"/>
+      <img src={props.imgsrc} alt="image" className="variant-image"/>
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>

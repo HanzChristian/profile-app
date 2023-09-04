@@ -84,14 +84,14 @@ const Footer = () => {
                 <h4>Products</h4>
               </Link>
               <div className="product-link">
-                <Link to="/product/dammar-batu" className="product-title">
-                  <p>Dammar Batu</p>
-                </Link>
                 <Link to="/product/dammar-gum" className="product-title">
-                  <p>Dammar Gum</p>
+                  <p>Gum Damar</p>
                 </Link>
                 <Link to="/product/copal-gum" className="product-title">
-                  <p>Copal Gum</p>
+                  <p>Gum Benzoin</p>
+                </Link>
+                <Link to="/product/dammar-batu" className="product-title">
+                  <p>Damar Batu</p>
                 </Link>
               </div>
               <Link to="/market" className="about-title">
@@ -103,8 +103,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d247.92947985819941!2d106.71256033994885!3d-6.147931391479984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d-6.1987086!2d106.74192599999999!4m0!5e0!3m2!1sid!2sid!4v1693811292701!5m2!1sid!2sid" width="450" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="map-frame"></iframe>
           <div className="media">
             <a
               href="https://wa.me/62811873382"

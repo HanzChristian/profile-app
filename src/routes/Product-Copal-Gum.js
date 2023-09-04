@@ -8,7 +8,7 @@ const CopalGum = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="Copal Gum Variant's" imageUrl={imageUrl} />
+      <HeroImg2 heading="Gum Benzoin Variant's" imageUrl={imageUrl} />
       <CardDisplayVariant/>
       <FooterNew/>
     </div>

@@ -40,13 +40,13 @@ const Navbar = () => {
   <Link to="/product" className="dropdown-trigger">Products</Link>
   <ul className="sub-menu">
     <li>
-      <Link to="/product/dammar-batu">Dammar Batu</Link>
+      <Link to="/product/dammar-gum">Gum Damar</Link>
     </li>
     <li>
-      <Link to="/product/dammar-gum">Dammar Gum</Link>
+      <Link to="/product/copal-gum">Gum Benzoin</Link>
     </li>
     <li>
-      <Link to="/product/copal-gum">Copal Gum</Link>
+      <Link to="/product/dammar-batu">Damar Batu</Link>
     </li>
   </ul>
 </li>

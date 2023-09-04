@@ -7,11 +7,12 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #f5f5f5;
-    background-image: url('https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); 
+    background-image: url('https://images.unsplash.com/photo-1494412552100-42e4e7a74ec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: left center; 
+    
   }
   
   .content-market {
@@ -25,7 +26,17 @@
     opacity: 0; 
     transform: translateY(20px); 
     transition: opacity 1s ease, transform 1s ease; 
+    z-index: 1;
   }
+
+  .container-market::after{
+    content: "";
+    width: 100%;
+    height: 53.5%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+}
   
   .fade-in {
     opacity: 1;

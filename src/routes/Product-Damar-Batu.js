@@ -8,7 +8,7 @@ const DammarBatu = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="Dammar Batu Variant's" imageUrl={imageUrl} />
+      <HeroImg2 heading="Damar Batu Variant's" imageUrl={imageUrl} />
       <CardDisplayDammarBatu/>
       <FooterNew/>
     </div>
