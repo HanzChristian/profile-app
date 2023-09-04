@@ -25,7 +25,7 @@ const FooterNew = () => {
             <div>
               <h4>Office</h4>
               <p>
-                Jl. Daan Mogot Baru Blok LB 3 No. 17-18, Kalideres, Jakarta,
+                Ruko Daan Mogot Baru Blok LB 3 No. 17-18, Kalideres, Jakarta,
                 Indonesia, 11840
               </p>
               <h4>Warehouse</h4>
