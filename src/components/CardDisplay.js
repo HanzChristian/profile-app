@@ -1,26 +1,27 @@
-import "./CardProductStyles.css"
-import CardProduct from "./CardProduct"
-import CardProductData from "./CardProductData"
-import React, { useState, useEffect } from 'react';
+import "./CardProductStyles.css";
+import CardProduct from "./CardProduct";
+import CardProductData from "./CardProductData";
+import React, { useState, useEffect } from "react";
 
 const CardDisplay = () => {
-    const [fadeIn, setFadeIn] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
 
-    useEffect(() => {
-        // Set the fadeIn state to true after a short delay (you can adjust the delay)
-        const timer = setTimeout(() => {
-            setFadeIn(true);
-        }, 100);
+  useEffect(() => {
+    // Set the fadeIn state to true after a short delay (you can adjust the delay)
+    const timer = setTimeout(() => {
+      setFadeIn(true);
+    }, 100);
 
-        return () => clearTimeout(timer);
-    }, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-    return (
-        <div className="work-container">
-            <h1 className="project-heading">Our Products</h1>
-            <div className={`project-container ${fadeIn ? 'fade-in' : ''}`}>
-            {CardProductData.map((val, ind) => {
+  return (
+    <div className="work-container">
+      <h1 className="project-heading">Our Products</h1>
+      <div className={`project-container ${fadeIn ? "fade-in" : ""}`}>
+        {CardProductData.map((val, ind) => {
           const showButton = ind < 2; // Show button for index 0, 1, and 2
+          const hideContainer = ind != 6; //Check if index != 6, the card is shown
           return (
             <CardProduct
               key={ind}
@@ -30,12 +31,13 @@ const CardDisplay = () => {
               url={val.url}
               button={val.button}
               showButton={showButton} // Pass the showButton flag to Card
+              hideContainer={hideContainer} // Pass hideContainer flag
             />
           );
         })}
-            </div>
-        </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default CardDisplay;

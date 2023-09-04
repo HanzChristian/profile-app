@@ -40,6 +40,16 @@ const ProjectCardData = [
         imgsrc: product6, 
         title: "Turpentine",
         text: "Turpentine is a liquid obtained by distilling resin obtained from living trees, mainly pine trees. Mainly used as a specialized solvent, it is also a source of raw materials for organic synthesis. In foods and beverages, distilled turpentine oil is used as a flavoring. In manufacturing, turpentine oil is used in soaps and cosmetics, and as a paint solvent. It is also added to perfumes, foods and detergents as a fragrance."
+    },
+    {
+        imgsrc: product6, 
+        title: "Turpentine",
+        text: "Turpentine is a liquid obtained by distilling resin obtained from living trees, mainly pine trees. Mainly used as a specialized solvent, it is also a source of raw materials for organic synthesis. In foods and beverages, distilled turpentine oil is used as a flavoring. In manufacturing, turpentine oil is used in soaps and cosmetics, and as a paint solvent. It is also added to perfumes, foods and detergents as a fragrance."
+    },
+    {
+        imgsrc: product6, 
+        title: "Turpentine",
+        text: "Turpentine is a liquid obtained by distilling resin obtained from living trees, mainly pine trees. Mainly used as a specialized solvent, it is also a source of raw materials for organic synthesis. In foods and beverages, distilled turpentine oil is used as a flavoring. In manufacturing, turpentine oil is used in soaps and cosmetics, and as a paint solvent. It is also added to perfumes, foods and detergents as a fragrance."
     }
 ]
 
