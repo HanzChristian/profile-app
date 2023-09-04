@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Navbar from '../components/Navbar';
 import HeroImg2 from '../components/HeroImg2';
 import FooterNew from '../components/Footer-new';
 import "./ContactStyles.css";
-import { Map } from '@googlemaps/react-wrapper'
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
   const imageUrl = "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1521&q=80";
-
+  const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form here
-
+    emailjs.sendForm('service_j02qf19', 'template_pcm1x1u', e.target, 'uQ8ZsoAfr58H3Mtmd')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
   };
 
   return (
@@ -39,9 +45,9 @@ const Contact = () => {
             <div className='getintouch-contact'>
               <h1 className='title-getintouch'>Get in touch with us!</h1>
               <form className='contact-form' onSubmit={handleSubmit}>
-                <input type='text' placeholder='Your Name' required />
-                <input type='email' placeholder='Your Email' required />
-                <textarea placeholder='Your Message' required></textarea>
+                <input type='text' placeholder='Your Name' name='name' required />
+                <input type='email' placeholder='Your Email' name='email' required />
+                <textarea placeholder='Your Message' name='message' required></textarea>
                 <button type='submit'>Submit</button>
               </form>
             </div>
