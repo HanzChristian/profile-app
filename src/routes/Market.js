@@ -27,7 +27,7 @@ const Market = () => {
         <div className={`content-market ${fadeIn ? 'fade-in' : ''}`}>
           <h1 className="heading-market">Market Scope</h1> 
             <p className="text-market">
-              As dammar have many industrial uses, the majority of our market coverage is in the paint and ink industry. Since we entered the Asia-Pacific market, our company has been trying to expand its market reach to the wider region of America and Europe.
+              As damar have many industrial uses, the majority of our market coverage is in the paint and ink industry. Since we entered the Asia-Pacific market, our company has been trying to expand its market reach to the wider region of America and Europe.
             </p>
         </div>
       </div>

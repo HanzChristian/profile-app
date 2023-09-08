@@ -12,13 +12,19 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form here
-    emailjs.sendForm('service_j02qf19', 'template_pcm1x1u', e.target, 'uQ8ZsoAfr58H3Mtmd')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
+    try{
+
+        emailjs.sendForm('service_j02qf19', 'template_pcm1x1u', e.target, 'uQ8ZsoAfr58H3Mtmd')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }catch(exceptionVar){
+      console.log(e);
+      return;
+    }
   };
 
   return (
@@ -31,7 +37,7 @@ const Contact = () => {
             <h1 className='title-contact'>Details Contact</h1>
             <div className='details-contact'>
               <p className='company-name'>PT Kreasi Emas Gemilang</p>
-              <p className='street-name'>Jl. Daan Mogot Baru Blok LB 3 No. 17-18, Kalideres, Jakarta, Indonesia, 11840</p>
+              <p className='street-name'>Ruko Daan Mogot Baru Blok LB 3 No. 17-18, Kalideres, Jakarta, Indonesia, 11840</p>
               <div className='phone-fax-email-name'>
                 <p>Phone : +62-21 543 73 132</p>
                 <p>Mobile : +62-811 873 382</p>

@@ -8,7 +8,7 @@ const CardVariant = (props) => {
 
   const arrowStyles = {
     position: "absolute",
-    top: "50%",
+    top: "40%",
     transform: "translateY(-50%)",
     fontSize: "40px",
     color: "gray",

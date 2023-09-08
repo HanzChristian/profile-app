@@ -17,7 +17,7 @@
 }
 
 .details{
-  width: 50%;
+  width: auto;
 
 }
 
@@ -64,10 +64,10 @@
 } */
 
 .title-contact{
-    text-align: center;
-    font-size: 24px;
+    font-size: 30px !important;
     font-weight: 600;
 }
+
 
 .company-name{
     font-size: 35px;
