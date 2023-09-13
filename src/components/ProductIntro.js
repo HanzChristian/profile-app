@@ -16,7 +16,7 @@ const ProductIntro = () => {
     return (
         <div className={`container-product ${fadeIn ? 'fade-in' : ''}`}>
             <div className='product-content'>
-                <p>By collaborating with local farmers and other relates parties, our company is comitted to providing the best quality damar for our customers.</p>
+                <p>By collaborating with local farmers and other stakeholders, our company is committed to providing the best quality damar and other products to our customers.</p>
             </div>
             <div className='product-img'>
                 <img

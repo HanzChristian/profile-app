@@ -3,7 +3,7 @@ import product2 from "../assets/product-2.jpeg"
 import product3 from "../assets/product-3.jpeg"
 import product4 from "../assets/product-4.jpeg"
 import product5 from "../assets/product-5.jpeg"
-import product6 from "../assets/product-6.jpeg"
+import product6 from "../assets/product-6.jpg"
 import product7 from "../assets/product-7.jpeg"
 
 
@@ -11,7 +11,7 @@ const ProjectCardData = [
     {
         imgsrc: product2, 
         title: "Gum Damar",
-        text: "Gum Damar is the result of secretions (pus or sap) of the trees Shorea sp., Vatica, sp., Dryobalanops sp., and other plants of the order meranti-merantian or Dipterocarpaceae. Plastic resin can be used as raw material for matches, resin, plaster, varnish, paint, ink industry stabilizer and cosmetics. Besides being an industrial raw material, dammar gum can be burned as a lighting tool and can also be used as a batik material."
+        text: "Gum Damar is the result of secretions (pus or sap) of the trees Shorea sp., Vatica, sp., Dryobalanops sp., and other plants of the order meranti-merantian or Dipterocarpaceae. Plastic resin can be used as raw material for matches, resin, plaster, varnish, paint, ink industry stabilizer and cosmetics. Besides being an industrial raw material, damar gum can be burned as a lighting tool and can also be used as a batik material."
     ,   button: "More details",
         url: "/product/dammar-gum"
     },
@@ -25,7 +25,7 @@ const ProjectCardData = [
     {
         imgsrc: product5, 
         title: "Damar Batu",
-        text: "Damar Batu is the fossilized resin obtained from the botanical order Dipterocarpaceae. Due to the natural curing process, the resin is slightly yellow in color, but some are white to golden brown. In industrial, Dammar batu is commonly used as a raw material for paints, batik dyes, waxes, printing inks, linoleum and cosmetics."
+        text: "Damar Batu is the fossilized resin obtained from the botanical order Dipterocarpaceae. Due to the natural curing process, the resin is slightly yellow in color, but some are white to golden brown. In industrial, Damar batu is commonly used as a raw material for paints, batik dyes, waxes, printing inks, linoleum and cosmetics."
         ,   button: "More details",
         url: "/product/dammar-batu"
     },

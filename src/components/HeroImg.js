@@ -18,7 +18,7 @@ const HeroImg = () => {
 
       <div className={`content ${fadeIn ? 'fade-in' : ''}`}>
         <h1>Welcome to PT. Kreasi Emas Gemilang!</h1>
-        <p className="content-text">PT Kreasi Emas Gemilang is a multi-national company with 15 years of experience in Gum products, including Gum Damar, Gum Copal, Gum Rosin, Damar Batu (Rock Damar), Turpentine Oil, and Tropica Flour (Cassava Flour). Our company has been exporting these products to several countries including China, Australia, Singapore, other Asia Pacific countries, and European countries.</p>
+        <p className="content-text">PT Kreasi Emas Gemilang is a national company with 15 years of experience in Gum products, including Gum Damar, Gum Copal, Gum Rosin, Damar Batu (Rock Damar), Turpentine Oil, and Tropica Flour (Cassava Flour). Our company has been exporting these products to several countries including China, Australia, Singapore, other Asia Pacific countries, and European countries.</p>
         <div className="button-container">
           <Link to="/product" className="btn">To Product</Link>
           <Link to="/market" className="btn">To Market</Link>

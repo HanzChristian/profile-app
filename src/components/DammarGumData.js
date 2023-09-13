@@ -6,7 +6,7 @@ const DammarGumData = [
     {
         imgsrc: gumdamar1, 
         title: "Gum Damar AC Quality",
-        text: "Gum Damar AC Quality is a quality grade of Gum Damar. The AC quality has a lighter white color and the structure range 5 to 7 cm."
+        text: "Gum Damar AC Quality is a quality grade of Gum Damar. The AC quality has a lighter white color and the structure range 5 to 7 cm. Due to the different color gradation between the picture and the real item, the AC and CK quality may have the same color in the picture."
     },
     {
         imgsrc: gumdamar2, 
