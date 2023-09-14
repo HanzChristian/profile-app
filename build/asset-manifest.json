@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e66bce6b.css",
+    "main.js": "/static/js/main.f012e4d7.js",
+    "static/media/template-background.jpg": "/static/media/template-background.b2019b04e7c560458bb8.jpg",
+    "static/media/background-aboutus.jpg": "/static/media/background-aboutus.8387c2f692f2ff1ba611.jpg",
+    "static/media/intro-bg.jpg": "/static/media/intro-bg.d235d34323af5fd711cc.jpg",
+    "static/media/damar-batu-3.jpeg": "/static/media/damar-batu-3.ba0c2c94be69bbde6c85.jpeg",
+    "static/media/product-6.jpg": "/static/media/product-6.9414896cabdddb3c84cd.jpg",
+    "static/media/gum-benzoin-2.jpeg": "/static/media/gum-benzoin-2.0645bde6f7c7043ac6cf.jpeg",
+    "static/media/gum-damar-3.jpeg": "/static/media/gum-damar-3.94531b16c0d1d8e2164b.jpeg",
+    "static/media/product-2.jpeg": "/static/media/product-2.d1411a812d75c6a95528.jpeg",
+    "static/media/product-3.jpeg": "/static/media/product-3.825e8cbb87ff6fc7de67.jpeg",
+    "static/media/gum-damar-2.jpeg": "/static/media/gum-damar-2.90ca75e775cf4d83847d.jpeg",
+    "static/media/damar-batu-2.jpeg": "/static/media/damar-batu-2.b6dd70026a2b4ed6f969.jpeg",
+    "static/media/gum-damar-1.jpeg": "/static/media/gum-damar-1.347e5a6850beb5ea47f0.jpeg",
+    "static/media/damar-batu-1.jpeg": "/static/media/damar-batu-1.bfa0381e648c41070a25.jpeg",
+    "static/media/gum-benzoin-1.jpeg": "/static/media/gum-benzoin-1.870c93bad1d5d33eef6b.jpeg",
+    "static/media/product-7.jpeg": "/static/media/product-7.870c93bad1d5d33eef6b.jpeg",
+    "static/media/product-5.jpeg": "/static/media/product-5.142b277496208c127b98.jpeg",
+    "static/media/product-4.jpeg": "/static/media/product-4.35a1bdcc02d4eca72823.jpeg",
+    "static/media/product-1.jpeg": "/static/media/product-1.8b14491845ada474e48b.jpeg",
+    "static/media/background-product.jpg": "/static/media/background-product.7e27d0a40ab2cedc484c.jpg",
+    "index.html": "/index.html",
+    "main.e66bce6b.css.map": "/static/css/main.e66bce6b.css.map",
+    "main.f012e4d7.js.map": "/static/js/main.f012e4d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e66bce6b.css",
+    "static/js/main.f012e4d7.js"
+  ]
+}
