@@ -29,9 +29,9 @@ const ImageCarousel = () => {
   }, []);
 
   const slides = [
-    { url: 'http://localhost:3000/displayed-1.jpeg', title: 'ceramic-1' ,width:'200px',height:'550px'},
-    { url: 'http://localhost:3000/displayed-2.jpeg', title: 'ceramic-2',width:'200px',height:'550px' },
-    { url: 'http://localhost:3000/displayed-3.jpeg', title: 'ceramic-3',width:'200px',height:'550px' }
+    { url: 'displayed-1.jpeg', title: 'ceramic-1' ,width:'200px',height:'550px'},
+    { url: 'displayed-2.jpeg', title: 'ceramic-2',width:'200px',height:'550px' },
+    { url: 'displayed-3.jpeg', title: 'ceramic-3',width:'200px',height:'550px' }
   ];
 
   const containerStyles = {

@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className={color ? 'header header-bg' : 'header'}>
       <Link to="/">
         <div className="logo-container">
-          <img src="http://localhost:3000/logo.jpg" className="logo" alt="Logo" />
+          <img src="logo.jpg" className="logo" alt="Logo" />
           <h2>PT Kreasi Emas Gemilang</h2>
         </div>
       </Link>
