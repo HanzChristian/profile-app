@@ -82,14 +82,23 @@
     margin: 1rem 0.5rem;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1040px) {
+    .mask{
+        height: 70vh;
+    }
+    
+    .hero .content{
+        top:40%;
+    }
     .hero .content h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .hero .content p{
         font-size: 1.4rem;
     }
+
+    
 }
 
 .transition-fade{

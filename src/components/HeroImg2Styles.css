@@ -51,3 +51,15 @@
         z-index: 1;
     }
 }
+
+@media screen and (max-width:1040px){
+    .hero-img h1 {
+        font-size: 2.5rem;
+    }
+    .heading {
+        padding-left: 2.5rem;
+        padding-top: 25%;
+        position: relative;
+        z-index: 1;
+    }
+}

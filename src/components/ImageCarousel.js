@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
 
 import ImageSlider from "./ImageSlider";
 import TemplateImg from "../assets/template-background.jpg";
@@ -21,29 +21,51 @@ const ImageCarousel = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const slides = [
-    { url: 'displayed-1.jpeg', title: 'ceramic-1' ,width:'200px',height:'550px'},
-    { url: 'displayed-2.jpeg', title: 'ceramic-2',width:'200px',height:'550px' },
-    { url: 'displayed-3.jpeg', title: 'ceramic-3',width:'200px',height:'550px' }
+    {
+      url: "displayed-1.jpeg",
+      title: "ceramic-1",
+      width: "200px",
+      height: "550px",
+    },
+    {
+      url: "displayed-2.jpeg",
+      title: "ceramic-2",
+      width: "200px",
+      height: "550px",
+    },
+    {
+      url: "displayed-3.jpeg",
+      title: "ceramic-3",
+      width: "200px",
+      height: "550px",
+    },
   ];
 
   const containerStyles = {
-    width: "200px",
-    height: window.innerWidth <=1440 ? '450px' : '550px',
+    width: "300px",
+    height:
+      window.innerWidth > 1040 && window.innerWidth <= 1440
+        ? "450px"
+        : window.innerWidth > 1440
+        ? "550px"
+        : window.innerWidth === 720 && window.innerHeight === 1280
+        ? "400px"
+        : "280px",
     margin: "0 auto",
   };
 
   return (
     <Element name="imageCarousel">
       <div
-        className={`hero2 ${fadeIn ? 'fade-in' : ''}`}
+        className={`hero2 ${fadeIn ? "fade-in" : ""}`}
         ref={imageCarouselRef}
       >
         <div className="mask2">
@@ -55,16 +77,22 @@ const ImageCarousel = () => {
             <ImageSlider slides={slides} />
           </div>
           <div className="carousel-info">
-            <h1 className='title-carousel'>Product's Variants</h1>
+            <h1 className="title-carousel">Product's Variants</h1>
             <p className="carousel-description">
-            Our main products are divided into many variations. For example, Damar Batu has 3 variants namely Bombay, Calcuta and Mix Quality. In addition, Gum Damar has 3 variants namely AC and CK quality, also Damar Mata Kucing. For information about other variants, please contact us via contact details.
+              Our main products are divided into many variations. For example,
+              Damar Batu has 3 variants namely Bombay, Calcuta and Mix Quality.
+              In addition, Gum Damar has 3 variants namely AC and CK quality,
+              also Damar Mata Kucing. For information about other variants,
+              please contact us via contact details.
             </p>
-            <Link to= "/product" className="btn">To Product</Link>
+            <Link to="/product" className="btn">
+              To Product
+            </Link>
           </div>
         </div>
       </div>
     </Element>
   );
-}
+};
 
 export default ImageCarousel;

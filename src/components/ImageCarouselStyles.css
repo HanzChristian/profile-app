@@ -1,7 +1,7 @@
 
 .mask2 {
     width: 100%;
-    max-height: 80vh;
+    max-height: 100vh;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -98,6 +98,23 @@
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width:1040px) {
+    .hero2 .content2 {
+        top: 10%;
+    }
+
+    .title-carousel {
+        font-size: 30px !important;
+    }
+    .carousel-info {
+        padding-top: 1.5rem;
+    }
+    .carousel-description {
+        font-size: 17px;
+    }
+}
+
 
 @keyframes slide {
     0% {

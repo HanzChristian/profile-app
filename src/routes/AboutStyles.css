@@ -144,3 +144,31 @@
       transform: translateY(0);
     }
 }
+
+@media screen and (max-width:1040px){
+    .intro-content {
+        flex: auto;
+        text-align: center;
+        margin: 1rem; 
+    }
+    .intro {
+       padding-left: 0rem;
+    }
+    .larger-text {
+        font-size: 1.25rem;
+    }
+    .vision-mission{
+        padding-left: 0rem;
+        flex: 234;
+    }
+    .vision-mission-image{
+        flex: 0;
+    }
+    .vision-mission-box {
+        width: 100%;
+    }
+    .vision-mission-content{
+        text-align: center;
+        gap: 20px;
+    }
+}

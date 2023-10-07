@@ -43,3 +43,24 @@
     
 }
 
+@media screen and (max-width:1040px) {
+    .product-img {
+        display: none; 
+    }
+
+    .container-product {
+        padding: 1rem; 
+    }
+
+    .product-content {
+        width: 100%; 
+        padding-left: 0; 
+    }
+
+    .product-content p {
+        padding-right: 1rem;
+        margin-right: 0;
+        text-align: center; 
+    }
+}
+
