@@ -5,6 +5,7 @@ import product4 from "../assets/product-4.jpeg"
 import product5 from "../assets/product-5.jpeg"
 import product6 from "../assets/product-6.jpg"
 import product7 from "../assets/product-7.jpeg"
+import product8 from "../assets/product-8.jpg"
 
 
 const ProjectCardData = [
@@ -45,9 +46,9 @@ const ProjectCardData = [
         text: "Turpentine Oil is a liquid obtained by distilling resin obtained from living trees, mainly pine trees. Mainly used as a specialized solvent, it is also a source of raw materials for organic synthesis. In foods and beverages, distilled turpentine oil is used as a flavoring. In manufacturing, turpentine oil is used in soaps and cosmetics, and as a paint solvent. It is also added to perfumes, foods and detergents as a fragrance."
     },
     {
-        imgsrc: product6, 
-        title: "Turpentine",
-        text: "Turpentine is a liquid obtained by distilling resin obtained from living trees, mainly pine trees. Mainly used as a specialized solvent, it is also a source of raw materials for organic synthesis. In foods and beverages, distilled turpentine oil is used as a flavoring. In manufacturing, turpentine oil is used in soaps and cosmetics, and as a paint solvent. It is also added to perfumes, foods and detergents as a fragrance."
+        imgsrc: product8, 
+        title: "Wood Pellet",
+        text: "Wood Pellet are a solid fuel made from compressed organic material. This type of fuel is often used to replace coal because wood pellet are flammable and have a pretty good flame and is more environmentally friendly because wood pellet production can also increase the use of wood waste, reduce deforestation, and help reduce carbon dioxide emissions. In addition, wood pellet can also be used as fuel in stoves. Furthermore, wood pellets dan also be used to replace fossil fuels in power plants."
     },
     {
         imgsrc: product3, 

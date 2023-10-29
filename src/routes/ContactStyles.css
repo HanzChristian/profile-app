@@ -142,6 +142,19 @@
   .contact-form button:hover {
     background-color: #4a225c;
   }
+
+  .popup.success .success-message {
+    color: green;
+  }
+  
+  .popup.error .error-message {
+    color: red;
+  }
+  
+  .close {
+    color: grey;
+    cursor: pointer;
+  }
   
   @keyframes fade-in {
     from {

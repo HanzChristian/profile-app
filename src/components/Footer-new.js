@@ -50,7 +50,7 @@ const FooterNew = () => {
               size={20}
               style={{ color: "white", marginRight: "2rem" }}
             />
-            <p>kreasiemas1@yahoo.com</p>
+            <p>sales@kreasiemasgemilang.com</p>
           </div>
         </div>
 

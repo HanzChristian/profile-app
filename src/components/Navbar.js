@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavbarStyles.css";
 
+import logo from "../assets/logo.jpg"
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [color, setColor] = useState(false);
@@ -24,6 +26,8 @@ const Navbar = () => {
     }
   };
 
+  window.addEventListener('scroll', changeColor);
+  
   const closeSubMenu = () => {
     setShowProductSubMenu(false);
   };
@@ -32,7 +36,7 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/" onClick={closeSubMenu}>
         <div className="logo-container">
-          <img src="logo.jpg" className="logo" alt="Logo" />
+          <img src={logo} className="logo" alt="Logo" />
           <h2>PT Kreasi Emas Gemilang</h2>
         </div>
       </Link>
@@ -44,7 +48,7 @@ const Navbar = () => {
           <Link
             to="/product"
             className="dropdown-trigger"
-            onClick={handleProductSubMenu}
+            onMouseEnter={handleProductSubMenu}
           >
             Products
           </Link>
