@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e66bce6b.css",
-    "main.js": "/static/js/main.deb0f7c7.js",
+    "main.css": "/static/css/main.833b9fa2.css",
+    "main.js": "/static/js/main.1496985c.js",
+    "static/media/product-8.jpg": "/static/media/product-8.ffc59cf6d5d34424814e.jpg",
     "static/media/template-background.jpg": "/static/media/template-background.b2019b04e7c560458bb8.jpg",
     "static/media/background-aboutus.jpg": "/static/media/background-aboutus.8387c2f692f2ff1ba611.jpg",
     "static/media/intro-bg.jpg": "/static/media/intro-bg.d235d34323af5fd711cc.jpg",
@@ -20,13 +21,14 @@
     "static/media/product-5.jpeg": "/static/media/product-5.142b277496208c127b98.jpeg",
     "static/media/product-4.jpeg": "/static/media/product-4.35a1bdcc02d4eca72823.jpeg",
     "static/media/product-1.jpeg": "/static/media/product-1.8b14491845ada474e48b.jpeg",
+    "static/media/logo.jpg": "/static/media/logo.772c58e0ab1b6986ad5f.jpg",
     "static/media/background-product.jpg": "/static/media/background-product.7e27d0a40ab2cedc484c.jpg",
     "index.html": "/index.html",
-    "main.e66bce6b.css.map": "/static/css/main.e66bce6b.css.map",
-    "main.deb0f7c7.js.map": "/static/js/main.deb0f7c7.js.map"
+    "main.833b9fa2.css.map": "/static/css/main.833b9fa2.css.map",
+    "main.1496985c.js.map": "/static/js/main.1496985c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e66bce6b.css",
-    "static/js/main.deb0f7c7.js"
+    "static/css/main.833b9fa2.css",
+    "static/js/main.1496985c.js"
   ]
 }
